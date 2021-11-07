@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=width-device, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Gif Finder</title>
+</head>
+
+<style media="screen">
+.logo {
+  font-size: 6rem;
+  color: #;
+  margin-bottom: 2rem;
+}
+
+figure {
+  font-size: 2rem;
+}
+
+figure img {
+  border-radius: 1rem;
+}
+</style>
+
+<body>
+  <div class="content-fluid">
+    <div class="row">
+      <div class="col-12">
+        <!-- FORMULARIO -->
+        <div class="row">
+          <div class="col-md-6 mx-auto mt-md-5">
+            <div class="logo d-flex align-itens-center justify-content-center">
+              <i class="bi bi-123">Gifs</i>
+            </div>
+            <div class="form-row">
+              <div class="col-md-8">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search" placeholder="Find your Gifs">
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input type="number" class="form-control" value="10" id="quantity" placeholder="How many gifs? e.g 10">
+                </div>
+              </div>
+            </div>
+
+              <button id="gifBtn" class="btn btn-dark btn-block">GO!</button>
+            </div>
+          </div>
+        </div>
+        <!-- GIFS -->
+        <div class="row">
+          <div class="col-md-10 mx-auto mt-md-5 bg-light">
+            <div id="gifs" class="d-flex flex-wrap align-items-center justify-content-center h2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./assets/js/scripts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
