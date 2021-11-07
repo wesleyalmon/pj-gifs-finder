@@ -1,30 +1,3 @@
-/*let posts = document.getElementById('posts');
-
-function loadPosts() {
-  fetch('https://jsonplaceholder.typicode.com/posts')
-    .then((result) => {
-      return result.json()
-    })
-    .then((json) => {
-      montarBlog(json);
-    })
-    .catch((err) => {
-      console.log(err)
-    })
-}
-
-function montarBlog(lista){
-  let html = '';
-
-  for(let i in lista){
-    html += `<h3>${lista[i].title}</h3>`;
-    html += `<p>${lista[i].body}</p>`;
-    html += `<h3/>`;
-  }
-  posts.innerHTML = html;
-}*/
-
-
 let gifBtn = document.getElementById('gifBtn');
 let search = document.getElementById('search');
 let quantity = document.getElementById('quantity');
